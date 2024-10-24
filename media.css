@@ -1,0 +1,19 @@
+@media (min-width:950px) and (max-width:1150px){
+   .home .img img{
+    width: 330px;
+   }
+}
+@media (max-width:950px) {
+    .home, .nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home .img , .home .text{
+        width: 100%;
+       
+    }
+    
+    body::after{
+        clip-path:circle(40% at bottom);
+    }
+}
